@@ -14,6 +14,7 @@ namespace WebApi.Controller
         {
             CreatedBrandResponse response = await Mediator.Send(createBrandCommand);
             return Ok(response);
+
         }
     }
 }
